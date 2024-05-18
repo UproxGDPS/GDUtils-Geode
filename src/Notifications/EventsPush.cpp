@@ -273,7 +273,7 @@ void EventsPush::onClickBtn(CCObject* ret) {
             //DailyLevelPage::create(eventType == EventType::Weekly)->show();
             return;
         }
-        std::string const& url = "http://www.boomlings.com/database/getGJLevels21.php";
+        std::string const& url = "http://www.projectbdash.com/uproxps/getGJLevels21.php";
         #ifndef GEODE_IS_MACOS
         int level_id = events_layer->level->m_levelID.value();
         #else // mac os 
